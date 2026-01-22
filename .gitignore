@@ -1,0 +1,33 @@
+# .gitignore for Audio Generator
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Generated audio files
+outputs/*.wav
+!outputs/.gitkeep
+
+# Settings and history
+.settings.json
+generation_history.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
